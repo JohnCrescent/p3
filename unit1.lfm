@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 284
+  Height = 240
+  Top = 175
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.4.0.4'
+  object Label1: TLabel
+    Left = 56
+    Height = 20
+    Top = 8
+    Width = 193
+    Caption = 'Kvadratická rovnica'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -16
+    Font.Name = 'Trajan Pro'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 19
+    Height = 15
+    Top = 53
+    Width = 9
+    Caption = 'a:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 19
+    Height = 15
+    Top = 90
+    Width = 10
+    Caption = 'b:'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 19
+    Height = 15
+    Top = 128
+    Width = 9
+    Caption = 'c:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 48
+    Height = 23
+    Top = 53
+    Width = 68
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 47
+    Height = 23
+    Top = 90
+    Width = 67
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 46
+    Height = 23
+    Top = 125
+    Width = 65
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 172
+    Height = 24
+    Top = 68
+    Width = 88
+    Caption = 'Korene'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Label5: TLabel
+    Left = 14
+    Height = 1
+    Top = 179
+    Width = 1
+    ParentColor = False
+  end
+end
